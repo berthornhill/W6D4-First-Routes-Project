@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  # resources :users
+  
+  #this is the shorthand method to create all 8 methods below:
+  # resources :users 
   
   get 'users', to: 'users#index'
   post'users', to: 'users#create'
